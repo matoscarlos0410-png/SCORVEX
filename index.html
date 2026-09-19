@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCORVEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+        <header>
+            <h1>⚔️ SCORVEX</h1>
+            <div class="stats">
+                <span>❤️ Vida: <b id="vida">100</b></span>
+                <span>⭐ Puntos: <b id="puntos">0</b></span>
+            </div>
+        </header>
+
+        <canvas id="game"></canvas>
+
+        <div class="controls">
+            <p>🎮 <b>Controles</b></p>
+            <p>W A S D → Mover</p>
+            <p>ESPACIO → Atacar</p>
+        </div>
+
+        <button id="restart">🔄 Reiniciar partida</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
